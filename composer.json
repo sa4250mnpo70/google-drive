@@ -1,0 +1,19 @@
+{
+    "name":        "nick4fake/google-drive",
+    "type":        "library",
+    "description": "Google Drive client",
+    "license":     "GPL",
+    "authors":     [
+        {
+            "name":  "Google"
+        }
+    ],
+    "require":     {
+        "php": ">=5.3"
+    },
+    "autoload":    {
+        "psr-0": {
+            "": "src/"
+        }
+    }
+}
