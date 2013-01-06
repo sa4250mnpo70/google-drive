@@ -5,15 +5,13 @@
     "license":     "GPL",
     "authors":     [
         {
-            "name":  "Google"
+            "name": "Google"
         }
     ],
     "require":     {
-        "php": ">=5.3"
+        "php": ">=5.2"
     },
     "autoload":    {
-        "psr-0": {
-            "": "src/"
-        }
+        "classmap": ["src/"]
     }
 }
